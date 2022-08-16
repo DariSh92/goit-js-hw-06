@@ -13,4 +13,3 @@ function onInputChange(event) {
     refs.outPut.textContent = event.currentTarget.value;
 }
 
-

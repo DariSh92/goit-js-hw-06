@@ -9,3 +9,4 @@ function onInputChange(event) {
   refs.nameLabel.style.fontSize = event.currentTarget.value + "px";
 
 }
+
