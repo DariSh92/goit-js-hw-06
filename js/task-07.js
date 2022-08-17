@@ -3,10 +3,11 @@ const refs = {
     nameLabel: document.querySelector('#text'),
 };
 
-refs.input.addEventListener('input', onInputChange);
+refs.input.addEventListener('change', onInputChange);
 
 function onInputChange(event) {
-  refs.nameLabel.style.fontSize = event.currentTarget.value + "px";
+  refs.nameLabel.style.fontSize = `${event.currentTarget.value}px`;
 
 }
+
 
